@@ -1,0 +1,48 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  text-align: center;
+}
+
+.box img {
+  width: 300px;
+  height: 300px;
+  display: black;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+
+.btn {
+  width: 300px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #7f8c8d;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: #95a5a6;
+  box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+.btn:hover + img {
+  border: 5px solid black;
+  transform: rotate(135deg) scale(0.5);
+}

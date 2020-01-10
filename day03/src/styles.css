@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  height: 1500px;
+}
+
+.wrap {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-top: 72px;
+}
+.red {
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  background-color: #ff7979;
+}
+.blue {
+  width: 70%;
+  padding: 50px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #7ed6df;
+}
+.yellow {
+  width: 30%;
+  border: 5px solid #999;
+  background-color: #ffcc00;
+}
+.green {
+  position: absolute;
+  width: 86px;
+  height: 34px;
+  background-color: #badc58;
+  left: 69%;
+  right: 0;
+  top: 55px;
+}

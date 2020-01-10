@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  min-height: 1500px;
+}
+
+.wrap {
+  display: flex;
+  width: 100%;
+  padding-top: 72px;
+}
+.red {
+  position: fixed;
+  width: 100%;
+  height: 72px;
+  background-color: #ff7979;
+}
+.blue {
+  width: 69%;
+  padding: 50px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #7ed6df;
+}
+.yellow {
+  width: 29%;
+  border: 5px solid #999;
+  background-color: #ffcc00;
+  box-sizing: border-box;
+}
+.green {
+  position: absolute;
+  width: 86px;
+  height: 34px;
+  background-color: #badc58;
+  left: 68%;
+  top: 55px;
+}
