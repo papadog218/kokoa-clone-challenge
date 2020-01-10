@@ -5,6 +5,8 @@ html {
   height: 100%;
 }
 
+a {text-decoration: none; color: inherit; width: inherit; height: inherit; display: block;}
+
 body {
   font-family: sans-serif;
   display: flex;
