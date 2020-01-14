@@ -20,10 +20,6 @@ body {
 button {
   border: 0;
 }
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
 .product-list {
   margin-top: 10px;
@@ -65,6 +61,16 @@ a {
 .item_price {
   font-size: 25px;
   font-weight: bold;
+}
+.item_star {
+  color: #febd51;
+}
+.item_star-num {
+  color: #bfc3c8;
+  font-weight: bold;
+}
+.item_star_gray {
+  color: #d7dee4;
 }
 
 .seller-list {
