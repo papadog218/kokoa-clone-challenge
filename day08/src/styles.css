@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  border: 0;
+}
+
+.product-list {
+  margin-top: 10px;
+}
+.product-list_item.item {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 520px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0px 25px;
+}
+.item_img {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.item_img img {
+  width: 300px;
+  border-radius: 5px;
+}
+.item_name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.item_info {
+  color: #bfc3c8;
+  margin-bottom: 20px;
+}
+.item_column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid orangered; */
+}
+.item_price {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.seller-list {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.seller-list_item.seller {
+  width: 450px;
+  height: 520px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.seller_bg {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+.seller_bg img {
+  width: 100%;
+  border-radius: 10px;
+}
+.seller_column:nth-child(1) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seller_img {
+  position: absolute;
+  background-color: #fff;
+  top: 165px;
+  border-radius: 50px;
+}
+.seller_img img {
+  width: 100px;
+  height: 100px;
+}
+.seller_name {
+  padding-top: 60px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.seller_job {
+  padding-top: 5px;
+  padding-bottom: 60px;
+  font-size: 20px;
+  color: #bfc3c8;
+}
+.seller_column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.seller_column:nth-child(2) button {
+  margin: 0 10px;
+}
+.seller_follow-btn {
+  background-color: #6b75ff;
+  color: #fff;
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.seller_message-btn {
+  background-color: #eaecff;
+  color: #6b75ff;
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+}
