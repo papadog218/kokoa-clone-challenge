@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f8f7ff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+input,
+button {
+  border: 0;
+}
+
+.wrap {
+  width: 340px;
+  border-radius: 50px;
+  margin: 10px auto;
+  padding: 20px 10px;
+  box-shadow: 10px 10px 8px #777;
+  background-color: #fff;
+  position: relative;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  height: 100%;
+  width: 320px;
+  margin: auto;
+  background-color: #f8f8f8;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.box-white {
+  width: 180px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.login_title {
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  font-weight: bold;
+}
+.eml,
+.pwd {
+  width: 100%;
+  height: 40px;
+  margin-top: 25px;
+  border: 1px solid #c4c8d4;
+  border-radius: 10px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.eml::placeholder,
+.pwd::placeholder {
+  color: #b3b2b3;
+}
+.login_find-pwd {
+  display: flex;
+  justify-content: flex-end;
+  color: #e2283e;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+.login_rememberChk {
+  font-size: 12px;
+  position: relative;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  color: #898989;
+}
+.far {
+  color: #c4c8d4;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+}
+.fas {
+  color: #e2283e;
+  position: absolute;
+  left: 0;
+}
+.login_submit-btn,
+.sns_facebook,
+.sns_twitter {
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 50px;
+}
+.login_submit-btn {
+  background-color: #e2283e;
+}
+.login_title-sub {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.login_sns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.sns_facebook,
+.sns_twitter {
+  width: 130px;
+  box-sizing: border-box;
+}
+.sns_facebook {
+  background-color: #475a95;
+}
+.sns_twitter {
+  background-color: #5da1f2;
+}
+.login_signup-txt,
+.login_retrive-txt {
+  color: #898989;
+  font-size: 12px;
+}
+.link {
+  color: #e2283e;
+  font-weight: bold;
+}
+.login_retrive-txt {
+  margin-bottom: 60px;
+}
